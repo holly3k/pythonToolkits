@@ -104,9 +104,9 @@ if __name__ == '__main__':
     tree1.column('#1', width=90, anchor=CENTER)
     tree1.column('#2', width=90, anchor=CENTER)
 
-    tree1.heading('#0', text='名称')
-    tree1.heading('#1', text='大小')
-    tree1.heading('#2', text='路径')
+    tree1.heading('#0', text='Name')
+    tree1.heading('#1', text='Size')
+    tree1.heading('#2', text='Path')
 
 
     tree1.pack(fill=BOTH,expand=True)
